@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">    
+</head>
+<body>
+    <div style="margin: 30px 200px; background-color: rgb(255, 255, 255); box-shadow: black 2px 5px; box-shadow: #838383 0px -8px 20px; border-radius: 0px;">
+	<form method="POST" action="hasil.php" style="padding: 50px 80px 50px 80px">
+    <h3 style="text-align: center; font-weight: bold;">Form Pengembangan Diri</h3>
+	<br>
+	<div class="form-group">
+		<label for="nama">Nama</label>
+		<input type="text" name="nama" class="form-control" placeholder="Nama Lengkap">
+	</div>
+    <br>
+    <div class="form-group">
+		<label>Jenis Kelamin</label>
+		<select name="gender" class="form-control">
+			<option value="">- Pilih</option>
+			<option value="">Laki-Laki</option>
+			<option value="">Perempuan</option>
+		</select>
+	</div>
+    <br>
+	<div class="form-group">
+		<label for="usia">Umur</label>
+		<input type="number" name="usia" class="form-control" placeholder="Masukkan Angka">
+	</div>
+    <br>
+	<div class="form-group">
+		<label for="alamat">Alamat</label>
+		<textarea class="form-control" name="alamat" rows="3" placeholder="Masukkan alamat lengkap"></textarea>
+	</div>
+    <br>
+    <div class="form-group">
+		<label for="lahir">Asal Kota</label>
+		<input type="text" name="lahir" class="form-control" placeholder="Masukkan asal kota">
+	</div>
+    <br>
+    <div class="form-group">
+		<label for="agama">Agama</label>
+		<select name="agama" class="form-control">
+			<option value="">- Pilih</option>
+			<option value="">Islam</option>
+			<option value="">Kristen</option>
+            <option value="">Hindu</option>
+            <option value="">Budha</option>
+            <option value="">Konghucu</option>
+		</select>
+	</div>
+    <br>
+    <div class="form-group">
+		<label for="cita-cita">Cita-cita</label>
+		<input type="cita" name="cita" class="form-control" placeholder="Masukkan cita-cita">
+	</div>   
+    <br>
+    <div class="form-group">
+		<label for="hobi">Hobi</label>
+		<input type="text" name="hobi" class="form-control" placeholder="Masukkan hobi">
+	</div>  
+    <br>
+    <div class="form-group">
+		<label for="asal">Asal Sekolah</label>
+		<input type="text" name="asal" class="form-control" placeholder="Masukkan asal sekolah">
+	</div> 
+    <br>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</body>
+<footer>
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</footer>
+</html>
